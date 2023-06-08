@@ -4,11 +4,38 @@
       <div id="skills">
         <h2 class=project-header> Skills</h2>
         <div class="skill-cards">
-          <% data.skills.each do |skill| %>
-            <div class="skill-card">
-              <p><%= skill.name %> <i class="<%= skill.tag %>"></i></p>
+          <div class="skill-card">
+            <p>Frontend Development</p>
+            <div class="skill-description">
+              <% data.frontend.each do |skill| %>
+                <p><%= skill.name %> <i class="<%= skill.tag %>"></i></p>
+              <% end %>
             </div>
-          <% end %>
+          </div>
+          <div class="skill-card">
+            <p>Backend Development</p>
+            <div class="skill-description">
+              <% data.backend.each do |skill| %>
+                <p><%= skill.name %> <i class="<%= skill.tag %>"></i></p>
+              <% end %>
+            </div>
+          </div>
+          <div class="skill-card">
+            <p>Fullstack Development</p>
+            <div class="skill-description">
+              <% data.fullstack.each do |skill| %>
+                <p><%= skill.name %> <i class="<%= skill.tag %>"></i></p>
+              <% end %>
+            </div>
+          </div>
+          <div class="skill-card">
+            <p>Product Development Tools</p>
+            <div class="skill-description">
+              <% data.tools.each do |skill| %>
+                <p><%= skill.name %> <i class="<%= skill.tag %>"></i></p>
+              <% end %>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -2,19 +2,50 @@
   description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
   image: projects/placeholder.png
   url: https://www.google.com
+  tags:
+    - devicon-html5-plain
+    - devicon-sass-original
+    - devicon-bootstrap-plain
+    - devicon-javascript-plain
+    - devicon-ruby-plain
+    - devicon-rails-plain
+    - devicon-postgresql-plain
 
 - name: FriendZone
   description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
   image: projects/placeholder.png
   url: https://www.google.com
+  tags:
+    - devicon-html5-plain
+    - devicon-sass-original
+    - devicon-bootstrap-plain
+    - devicon-javascript-plain
+    - devicon-ruby-plain
+    - devicon-rails-plain
+    - devicon-postgresql-plain
 
 - name: Movie Watchlist
   description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
   image: projects/placeholder.png
   url: https://www.google.com
+  tags:
+    - devicon-html5-plain
+    - devicon-sass-original
+    - devicon-bootstrap-plain
+    - devicon-javascript-plain
+    - devicon-ruby-plain
+    - devicon-rails-plain
+    - devicon-postgresql-plain
 
 
 - name: Longest Word Game
   description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
   image: projects/placeholder.png
   url: https://www.google.com
+  tags:
+    - devicon-html5-plain
+    - devicon-sass-original
+    - devicon-bootstrap-plain
+    - devicon-javascript-plain
+    - devicon-ruby-plain
+    - devicon-rails-plain

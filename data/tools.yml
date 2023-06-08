@@ -1,0 +1,8 @@
+- name: Git
+  tag: devicon-git-plain colored
+
+- name: Github
+  tag: devicon-github-original colored
+
+- name: Figma
+  tag:  devicon-figma-plain colored

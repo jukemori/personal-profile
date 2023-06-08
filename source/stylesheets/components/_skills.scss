@@ -4,19 +4,38 @@
 }
 .skill-cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   margin: 1rem;
 }
 
 .skill-card {
-  margin: 0.5rem;
+  margin: 1rem;
   text-align: center;
+  background-color: #F3F3F3;
+  border-radius: 8px;
+  padding: 1.5rem 0;
+
   p {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
+
+.skill-description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0.5rem;
+  padding: 0 10%;
+
+  p {
+    font-size: 1.2rem;
+    font-weight:lighter;
     i {
-      font-size: 2rem;
+      font-size: 1.2rem;
+      font-weight:lighter;
     }
   }
+
 }
 
 
@@ -24,7 +43,7 @@
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .skill-cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
     p {
       font-size: 1.5rem;
       i {
@@ -35,35 +54,14 @@
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .skill-cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
     // p {
     //   font-size: 1rem;
     //   i {
     //     font-size: 1rem;
     //   }
     // }
-  }
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  .skill-cards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .skill-cards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .skill-cards {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }

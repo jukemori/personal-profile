@@ -1,0 +1,17 @@
+- name: HTML
+  tag: devicon-html5-plain colored
+
+- name: CSS
+  tag: devicon-css3-plain colored
+
+- name: JavaScript
+  tag: devicon-javascript-plain colored
+
+- name: Bootstrap
+  tag: devicon-bootstrap-plain colored
+
+- name: Sass
+  tag: devicon-sass-original colored
+
+- name: Webpack
+  tag: devicon-webpack-plain colored
