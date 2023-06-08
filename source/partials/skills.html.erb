@@ -1,0 +1,16 @@
+<div class="row my-5">
+  <div class="col-12">
+    <div class="container">
+      <div id="skills">
+        <h2 class=project-header> Skills</h2>
+        <div class="skill-cards">
+          <% data.skills.each do |skill| %>
+            <div class="skill-card">
+              <p><%= skill.name %> <i class="<%= skill.tag %>"></i></p>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

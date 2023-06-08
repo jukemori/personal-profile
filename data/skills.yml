@@ -1,0 +1,38 @@
+- name: HTML
+  tag: devicon-html5-plain colored
+
+- name: CSS
+  tag: devicon-css3-plain colored
+
+- name: JavaScript
+  tag: devicon-javascript-plain colored
+
+- name: Ruby
+  tag: devicon-ruby-plain colored
+
+- name: Ruby on Rails
+  tag: devicon-rails-plain colored
+
+- name: PostgreSQL
+  tag: devicon-postgresql-plain colored
+
+- name: Git
+  tag: devicon-git-plain colored
+
+- name: Github
+  tag: devicon-github-original colored
+
+- name: Bootstrap
+  tag: devicon-bootstrap-plain colored
+
+- name: Sass
+  tag: devicon-sass-original colored
+
+- name: Figma
+  tag:  devicon-figma-plain colored
+
+- name: Webpack
+  tag: devicon-webpack-plain colored
+
+- name: Heroku
+  tag: devicon-heroku-plain colored

@@ -1,19 +1,20 @@
-- name: Longest Word Game
-  description: Decent description of the app
+- name: WolfMinute
+  description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
+  image: projects/placeholder.png
+  url: https://www.google.com
+
+- name: FriendZone
+  description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
   image: projects/placeholder.png
   url: https://www.google.com
 
 - name: Movie Watchlist
-  description: Decent description of the app
+  description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
   image: projects/placeholder.png
   url: https://www.google.com
 
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
 
-- name: Final project
-  description: Decent description of the app
+- name: Longest Word Game
+  description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
   image: projects/placeholder.png
   url: https://www.google.com
