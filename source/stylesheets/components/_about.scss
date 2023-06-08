@@ -1,7 +1,45 @@
 #about {
   padding: 80px 16%;
-  h2 {
-      text-align: center;
-      margin-bottom: 40px;
+}
+
+.about-me{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+
+  #about {
+    padding: 20px 5%;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  #about {
+    padding: 20px 5%;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #about {
+    padding: 80px 16%;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #about {
+    padding: 80px 16%;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  #about {
+    padding: 80px 16%;
   }
 }

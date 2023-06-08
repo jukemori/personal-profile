@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 16px;
+  background: white;
 }
 
 .card-product {
@@ -9,13 +10,14 @@
   overflow: hidden;
   height: 60vh;
   background: white;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  // box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 
 .card-product img {
+  padding: 2rem;
   height: 100%;
   width: 40vw;
   object-fit: cover;

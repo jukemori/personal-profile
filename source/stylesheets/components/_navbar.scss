@@ -1,5 +1,5 @@
 .navbar-lewagon {
-  justify-content: space-between;
+  justify-content: center;
   background: white;
 }
 
@@ -7,6 +7,50 @@
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+li {
+  margin-right: 4rem;
+  font-size: 1.5rem;
+}
+
+.navbar > .container-fluid {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .navbar > .container-fluid {
+    justify-content: space-between;
+  }
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .navbar > .container-fluid {
+    justify-content: space-between;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .navbar > .container-fluid {
+    justify-content: center;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .navbar > .container-fluid {
+    justify-content: center;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .navbar > .container-fluid {
+    justify-content: center;
+  }
 }

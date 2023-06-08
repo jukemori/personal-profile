@@ -1,3 +1,136 @@
 .banner {
-  height: 100vh;
+  height: 90vh;
+}
+
+.main-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.right {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.title-main {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.profile-pic {
+  width: 30vw;
+  border-radius: 50%;
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .main-banner {
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .profile-pic {
+    width: 80vw;
+    border-radius: 50%;
+  }
+
+  .title-main {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .banner {
+    height: auto;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .main-banner {
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    flex-direction: column-reverse;
+  }
+  .profile-pic {
+    width: 80vw;
+    border-radius: 50%;
+  }
+  .title-main {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .banner {
+    height: auto;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .main-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .profile-pic {
+    width: 30vw;
+    border-radius: 50%;
+  }
+  .title-main {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  .banner {
+    height: 90vh;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .main-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .profile-pic {
+    width: 30vw;
+    border-radius: 50%;
+  }
+  .title-main {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  .banner {
+    height: 90vh;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .main-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .profile-pic {
+    width: 30vw;
+    border-radius: 50%;
+  }
+  .title-main {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  .banner {
+    height: 90vh;
+  }
 }
