@@ -9,3 +9,18 @@
   padding: 3rem;
   background-color: white;
 }
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .project-header{
+    font-size: 2rem;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 768px){
+  .project-header{
+    font-size: 2rem;
+    margin-bottom: 1.3rem;
+  }
+}

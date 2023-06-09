@@ -24,13 +24,25 @@
                 </button>
               </div>
               <div class="card-product-infos w-100">
-                <div class="d-flex ">
-                  <h2><%= project.name %></h2>
-                  <% link_to project.url, class: 'external-link', target: '_blank' do %>
-                    <i class="fas fa-external-link-alt"></i>
+                <h2><%= project.name %></h2>
+                <p><%= project.description %></p>
+                <div class="project-tags ">
+                  <% project.tags.each do |tag| %>
+                    <i class="<%= tag %>"></i>
                   <% end %>
                 </div>
-                <p><%= project.description %></p>
+                <div class="project-buttons ">
+                  <% link_to project.url, class: 'external-link', target: '_blank' do %>
+                    <div class="btn-flat">
+                      <p><i class="fas fa-external-link-alt"></i> Website</p>
+                    </div>
+                  <% end %>
+                  <% link_to project.url, class: 'external-link', target: '_blank' do %>
+                    <div class="btn-flat">
+                      <p><i class="devicon-github-original"></i> Source Code</p>
+                    </div>
+                  <% end %>
+                </div>
               </div>
             </div>
           <% end %>

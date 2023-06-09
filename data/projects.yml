@@ -1,9 +1,14 @@
 - name: WolfMinute
   description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
   images:
-    - projects/placeholder.png
-    - projects/placeholder.png
-    - projects/placeholder.png
+    - projects/wolfminute/11.54.03.png
+    - projects/wolfminute/11.54.12.png
+    - projects/wolfminute/11.54.23.png
+    - projects/wolfminute/11.54.41.png
+    - projects/wolfminute/11.58.15.png
+    - projects/wolfminute/11.58.33.png
+    - projects/wolfminute/11.58.53.png
+    - projects/wolfminute/12.02.05.png
   url: https://www.google.com
   tags:
     - devicon-html5-plain

@@ -8,7 +8,7 @@
 .card-product {
   padding: 1rem;
   overflow: hidden;
-  height: 60vh;
+  height: 100%;
   background: white;
   // box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   display: grid;
@@ -36,22 +36,44 @@
   margin-top: 8px;
 }
 
+.card-product .card-product-infos .btn-flat {
+  p {
+    margin: 0;
+  }
+}
+
+.card-product-infos {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-tags  {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+  i {
+    color: gray;
+    margin: 0.5rem;
+    font-size: 1.3rem;
+  }
+}
+
+.project-buttons {
+  display: flex;
+}
 
 
 .card-product .card-product-infos {
   padding: 2rem;
   height: 100%;
-  &:hover {
-    .external-link {
-      opacity: 1;
-    }
-  }
 }
 
 .external-link {
   margin-left: 8px;
-  opacity: 0;
-  color: $gray;
+  opacity: 1;
+  text-decoration: none;
   transition: opacity 1s;
   &:hover {
     cursor: pointer;
