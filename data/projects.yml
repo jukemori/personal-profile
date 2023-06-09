@@ -1,4 +1,5 @@
-- name: WolfMinute
+- id: 1
+  name: WolfMinute
   description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
   images:
     - projects/wolfminute/11.54.03.png
@@ -19,7 +20,8 @@
     - devicon-rails-plain
     - devicon-postgresql-plain
 
-- name: FriendZone
+- id: 2
+  name: FriendZone
   description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
   images:
     - projects/placeholder.png
@@ -35,7 +37,8 @@
     - devicon-rails-plain
     - devicon-postgresql-plain
 
-- name: Movie Watchlist
+- id: 3
+  name: Movie Watchlist
   description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
   images:
     - projects/placeholder.png
@@ -51,8 +54,8 @@
     - devicon-rails-plain
     - devicon-postgresql-plain
 
-
-- name: Longest Word Game
+- id: 4
+  name: Longest Word Game
   description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
   images:
     - projects/placeholder.png
