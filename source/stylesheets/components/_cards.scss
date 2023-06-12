@@ -10,6 +10,7 @@
 }
 
 .card-product {
+  justify-content: center;
   display: block;
   padding: 1rem;
   overflow: hidden;
@@ -49,6 +50,7 @@
 }
 
 .card-product-infos {
+  width: 100%;
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -92,7 +94,11 @@
   .card-product {
     grid-template-columns: 1fr;
     img {
+      padding: 1rem;
       width: 100%;
+    }
+    .card-product-infos {
+      padding: 1rem;
     }
   }
   .external-link {
