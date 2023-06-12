@@ -47,8 +47,13 @@
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
+  #skills {
+    background-color: white;
+    padding: 1rem
+  }
   .skill-cards {
     grid-template-columns: 1fr ;
+    margin: 0;
     p {
       font-size: 1rem;
       i {

@@ -28,6 +28,7 @@
     - projects/placeholder.png
     - projects/placeholder.png
   url: https://www.google.com
+  source: https://www.google.com
   tags:
     - devicon-html5-plain
     - devicon-sass-original
@@ -39,12 +40,15 @@
 
 - id: 3
   name: Movie Watchlist
-  description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
+  description: An entertainment app which allows user to get infomation about the movies and create their own watchlist.
   images:
-    - projects/placeholder.png
-    - projects/placeholder.png
-    - projects/placeholder.png
-  url: https://www.google.com
+    - projects/watchlist/19.13.36.png
+    - projects/watchlist/19.12.54.png
+    - projects/watchlist/19.14.31.png
+    - projects/watchlist/19.10.32.png
+    - projects/watchlist/19.11.46.png
+  url: https://jap-watchlist.herokuapp.com/
+  source: https://github.com/jukemori/rails-watch-list
   tags:
     - devicon-html5-plain
     - devicon-sass-original
@@ -63,6 +67,7 @@
     - projects/placeholder.png
     - projects/placeholder.png
   url: https://www.google.com
+  source: https://www.google.com
   tags:
     - devicon-html5-plain
     - devicon-sass-original
