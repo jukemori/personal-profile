@@ -4,29 +4,26 @@
   grid-gap: 16px;
   background: white;
   display: block;
-  width: 100%;
-  max-width: 100%;
   overflow: hidden;
+
 }
 
 .card-product {
   justify-content: center;
-  display: block;
   padding: 1rem;
-  overflow: hidden;
-  width: 100%;
-  max-width: 100%;
+
   background: white;
   // box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   display: grid;
   grid-template-columns: 60% 40%;
   align-items: center;
+  text-align: center;
 }
 
 .card-product img {
   padding: 2rem;
-  width: 100%;
   object-fit: cover;
+  box-sizing:border-box
 }
 
 .card-product h2 {
@@ -50,11 +47,12 @@
 }
 
 .card-product-infos {
-  width: 100%;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing:border-box
+  width auto;
 }
 
 .project-tags  {
@@ -73,10 +71,7 @@
 }
 
 
-.card-product .card-product-infos {
-  padding: 2rem;
-  height: 100%;
-}
+
 
 .external-link {
   margin-left: 8px;
@@ -90,15 +85,25 @@
 }
 
 // Smallest device
-@media (min-width: 100px) and (max-width: 575px) {
+@media (min-width: 100px) and (max-width: 350px) {
   .card-product {
     grid-template-columns: 1fr;
+    padding: 0;
+    justify-content: center;
     img {
-      padding: 1rem;
-      width: 100%;
+      padding: 0.5rem;
     }
     .card-product-infos {
-      padding: 1rem;
+      padding: 0.5rem;
+      justify-content: center;
+      width: 260px !important;
+      p {
+        box-sizing: border-box;
+        font-size: 0.7rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
     }
   }
   .external-link {
@@ -107,7 +112,7 @@
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 768px){
+@media (min-width: 350px) and (max-width: 768px){
   .card-product {
     grid-template-columns: 1fr;
     img {
