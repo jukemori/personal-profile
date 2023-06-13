@@ -1,6 +1,6 @@
 - id: 1
   name: WolfMinute
-  description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
+  description: A meeting scheduler web app that analyzes optimal meeting times based on team members' availability. It also records the meeting and gives you a summary and key points of the meeting.
   images:
     - projects/wolfminute/11.54.03.png
     - projects/wolfminute/11.54.12.png
@@ -11,7 +11,7 @@
     - projects/wolfminute/11.58.33.png
     - projects/wolfminute/11.58.53.png
     - projects/wolfminute/12.02.05.png
-  url: https://www.google.com
+  source: https://github.com/jukemori/wolf-minute
   tags:
     - devicon-html5-plain
     - devicon-sass-original

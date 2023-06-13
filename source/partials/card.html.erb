@@ -26,15 +26,19 @@
         <% end %>
       </div>
       <div class="project-buttons ">
-        <% link_to project.url, class: 'external-link', target: '_blank' do %>
-          <div class="btn-flat">
-            <p><i class="fas fa-external-link-alt"></i> Website</p>
-          </div>
+        <% if project.url %>
+          <% link_to project.url, class: 'external-link', target: '_blank' do %>
+            <div class="btn-flat">
+              <p><i class="fas fa-external-link-alt"></i> Website</p>
+            </div>
+          <% end %>
         <% end %>
-        <% link_to project.source, class: 'external-link', target: '_blank' do %>
-          <div class="btn-flat">
-            <p><i class="devicon-github-original"></i> Source Code</p>
-          </div>
+        <% if project.source %>
+          <% link_to project.source, class: 'external-link', target: '_blank' do %>
+            <div class="btn-flat">
+              <p><i class="devicon-github-original"></i> Source Code</p>
+            </div>
+          <% end %>
         <% end %>
       </div>
     </div>
