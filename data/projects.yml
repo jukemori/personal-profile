@@ -23,13 +23,19 @@
 
 - id: 2
   name: FriendZone
-  description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
+  description:  An innovative app that allows users to book friend for a specified duration, providing personalized experiences and connections. Whether for social events or casual outings, it offers a safe and convenient platform to select and hire a friend-like companion.
   images:
-    - projects/placeholder.png
-    - projects/placeholder.png
-    - projects/placeholder.png
-  url: https://www.google.com
-  source: https://www.google.com
+    - projects/friendzone/23.04.18.png
+    - projects/friendzone/23.05.54.png
+    - projects/friendzone/23.11.12.png
+    - projects/friendzone/23.07.27.png
+    - projects/friendzone/23.12.43.png
+    - projects/friendzone/23.14.10.png
+    - projects/friendzone/23.15.18.png
+    - projects/friendzone/23.15.43.png
+    - projects/friendzone/23.18.24.png
+  url: https://happyfriendzone.herokuapp.com/
+  source: https://github.com/jukemori/FriendZone
   tags:
     - devicon-html5-plain
     - devicon-sass-original
@@ -61,18 +67,11 @@
 
 - id: 4
   name: Longest Word Game
-  description: We are happy to host the next Tokyo Rubyist meetup at the Impact Hub Tokyo! Please register in advance as the event is pre-paid (1500 yen) and comes with delicious food
+  description: Longest Word Game is a challenging and educational word game where players are tasked with finding valid English words from a set of given letters. The game tests players' vocabulary skills and ability to form words using the provided letters.
   images:
-    - projects/placeholder.png
-    - projects/placeholder.png
-    - projects/placeholder.png
-    - projects/placeholder.png
-  url: https://www.google.com
-  source: https://www.google.com
+    - projects/word_game/21.09.13.png
+    - projects/word_game/21.09.34.png
+  source: https://github.com/jukemori/rails-longest-word-game
   tags:
-    - devicon-html5-plain
-    - devicon-sass-original
-    - devicon-bootstrap-plain
-    - devicon-javascript-plain
     - devicon-ruby-plain
     - devicon-rails-plain
