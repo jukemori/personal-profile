@@ -86,7 +86,7 @@
 }
 
 // Smallest device
-@media (min-width: 100px) and (max-width: 350px) {
+@media (min-width: 100px) and (max-width: 400px) {
   .card-product {
     grid-template-columns: 1fr;
     padding: 0;
@@ -113,7 +113,7 @@
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 350px) and (max-width: 768px){
+@media (min-width: 400px) and (max-width: 768px){
   .card-product {
     grid-template-columns: 1fr;
     img {
