@@ -1,6 +1,7 @@
 - id: 1
   name: WolfMinute
   description: A meeting scheduler web app that analyzes optimal meeting times based on team members' availability. It also records the meeting and gives you a summary and key points of the meeting.
+  main: projects/wolfminute/11.54.03.png
   images:
     - projects/wolfminute/11.54.03.png
     - projects/wolfminute/11.54.12.png
@@ -24,6 +25,7 @@
 - id: 2
   name: FriendZone
   description:  An innovative app that allows users to book friend for a specified duration, providing personalized experiences and connections. Whether for social events or casual outings, it offers a safe and convenient platform to select and hire a friend-like companion.
+  main: projects/friendzone/23.04.18.png
   images:
     - projects/friendzone/23.04.18.png
     - projects/friendzone/23.05.54.png
@@ -48,6 +50,7 @@
 - id: 3
   name: Movie Watchlist
   description: An entertainment app which allows user to get infomation about the movies and create their own watchlist.
+  main: projects/watchlist/19.13.36.png
   images:
     - projects/watchlist/19.13.36.png
     - projects/watchlist/19.12.54.png
@@ -68,6 +71,7 @@
 - id: 4
   name: Longest Word Game
   description: Longest Word Game is a challenging and educational word game where players are tasked with finding valid English words from a set of given letters. The game tests players' vocabulary skills and ability to form words using the provided letters.
+  main: projects/word_game/21.09.13.png
   images:
     - projects/word_game/21.09.13.png
     - projects/word_game/21.09.34.png

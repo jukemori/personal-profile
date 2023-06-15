@@ -1,14 +1,15 @@
 <div class="row justify-content-center banner" id="home">
-  <div class="container">
-    <div class="main-banner">
-      <div class="left">
-        <h3>Hi, my name is</h3>
-        <h1 class="title-main mb-3">Jun Ukemori</h1>
-        <h3 class="mt-3">Fullstack Web Developer</h3>
+  <div class="main-banner">
+    <div class="left">
+      <h1 class="title-main mb-3">Hi, I'm Jun</h1>
+      <h3 class="mt-3 text-muted">Fullstack Web Developer</h3>
+      <div class="btn btn-main mt-3">
+        <a href="#contact">Contact me</a>
       </div>
-      <div class="right">
-        <%= image_tag 'profile.png', alt: "profile photo", class: 'profile-pic' %>
-      </div>
+      <%= partial 'partials/social' %>
+    </div>
+    <div class="right">
+      <%= image_tag 'profile.png', alt: "profile photo", class: 'profile-pic' %>
     </div>
   </div>
 </div>

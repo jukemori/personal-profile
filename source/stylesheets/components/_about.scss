@@ -1,18 +1,12 @@
 #about {
-  padding: 3rem 16%;
   background-color: white;
 }
 
-.about-me{
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 2rem;
-}
 
-.about-me-image{
+
+.about-cards{
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 1fr 1fr;
 }
 
 
@@ -20,9 +14,13 @@
 .about-info {
   padding: 1rem;
 }
-
-.about-pic {
-  width: 100%;
+.about-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .about-pic {
+    width: auto;
+  }
 }
 
 
@@ -30,8 +28,7 @@
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   #about {
-    padding: 20px 5%;
-    .about-me-image{
+    .about-cards{
       display: grid;
       grid-template-columns: 1fr;
     }

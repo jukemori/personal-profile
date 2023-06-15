@@ -2,37 +2,18 @@
   <div class="col-12">
     <div class="container">
       <div id="skills">
-        <h2 class=project-header> Skills</h2>
-        <div class="skill-cards">
-          <div class="skill-card">
-            <p>Frontend Development</p>
-            <div class="skill-description">
-              <% data.frontend.each do |skill| %>
-                <p><%= skill.name %> <i class="<%= skill.tag %>"></i></p>
-              <% end %>
+        <div class="skill-cards ">
+          <div class="skill-card text-left">
+            <h2 class="sub-header">My Skills</h2>
+            <p class="text-muted">Fullstack development skills which enable efficient development, styling, data management, deployment, version control, and collaboration.</p>
+            <div class="btn btn-main mt-3">
+              <a href="#projects">See Projects</a>
             </div>
           </div>
           <div class="skill-card">
-            <p>Backend Development</p>
-            <div class="skill-description">
-              <% data.backend.each do |skill| %>
-                <p><%= skill.name %> <i class="<%= skill.tag %>"></i></p>
-              <% end %>
-            </div>
-          </div>
-          <div class="skill-card">
-            <p>Fullstack Development</p>
-            <div class="skill-description">
-              <% data.fullstack.each do |skill| %>
-                <p><%= skill.name %> <i class="<%= skill.tag %>"></i></p>
-              <% end %>
-            </div>
-          </div>
-          <div class="skill-card">
-            <p>Product Development Tools</p>
             <div class="skill-description">
               <% data.tools.each do |skill| %>
-                <p><%= skill.name %> <i class="<%= skill.tag %>"></i></p>
+                <p > <i class="<%= skill.tag %>"></i> <%= skill.name %></p>
               <% end %>
             </div>
           </div>
