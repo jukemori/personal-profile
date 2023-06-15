@@ -1,59 +1,26 @@
 .navbar-lewagon {
-  justify-content: center;
+  justify-content: space-between;
   background: white;
+}
 
-  width: 100%;
-
+.navbar > .container-fluid {
+  max-width: 940px;
 }
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
 
-li {
-  margin-right: 4rem;
-  font-size: 1.5rem;
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+  margin-right: 10rem;
 }
 
-.navbar > .container-fluid {
-  display: flex;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: center;
-}
-
-// Smallest device
-@media (min-width: 100px) and (max-width: 575px) {
-  .navbar > .container-fluid {
-    justify-content: space-between;
-  }
-
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  .navbar > .container-fluid {
-    justify-content: space-between;
-  }
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  .navbar > .container-fluid {
-    justify-content: center;
-  }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .navbar > .container-fluid {
-    justify-content: center;
-  }
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .navbar > .container-fluid {
-    justify-content: center;
+.nav-link {
+  color: black;
+  font-weight: bold;
+  transition: 0.3s ease;
+  &:hover {
+    color: $orange;
   }
 }

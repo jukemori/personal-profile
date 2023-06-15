@@ -1,1 +1,93 @@
 // Specific CSS for your home-page
+.left {
+  margin-right: 32px;
+}
+
+.right {
+  margin-left: 32px;
+}
+
+.title-main {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.profile-pic {
+  width: 441px;
+  // border-radius: 50%;
+  // box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+
+  .profile-pic {
+    width: 80vw;
+    // border-radius: 50%;
+  }
+
+  .title-main {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+  .profile-pic {
+    width: 80vw;
+    // border-radius: 50%;
+  }
+  .title-main {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+  .profile-pic {
+    width: 30vw;
+    // border-radius: 50%;
+  }
+  .title-main {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+  .profile-pic {
+    width: 441px;
+    // border-radius: 50%;
+  }
+  .title-main {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+  .profile-pic {
+    width: 441px;
+    // border-radius: 50%;
+  }
+  .title-main {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
+}

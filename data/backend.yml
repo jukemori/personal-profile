@@ -1,5 +1,12 @@
 - name: Ruby
   tag: devicon-ruby-plain colored
 
+
+- name: Ruby on Rails
+  tag: devicon-rails-plain colored
+
 - name: PostgreSQL
   tag: devicon-postgresql-plain colored
+
+- name: Heroku
+  tag: devicon-heroku-plain colored

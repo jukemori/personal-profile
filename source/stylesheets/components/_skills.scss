@@ -1,27 +1,19 @@
 #skills {
   background-color: white;
-  padding: 3rem 10%;
 }
 .skill-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 1rem;
+  // margin: 1rem;
 }
 
 
 
 .skill-card {
   margin: 1rem;
-  text-align: center;
-  background-color: #F3F3F3;
-  border-radius: 8px;
-  padding: 1.5rem 0;
-  transition: 1s;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-
+  // text-align: center;
   p {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1rem;
   }
 }
 
@@ -29,14 +21,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0.5rem;
-  padding: 0 10%;
+  padding: 0 5%;
 
   p {
-    font-size: 1.2rem;
-    font-weight:lighter;
+    font-size: 1rem;
     i {
-      font-size: 1.2rem;
-      font-weight:lighter;
+      font-size: 1rem;
+
     }
   }
 
