@@ -1,23 +1,17 @@
 <div class="row my-5">
   <div class="col-12">
     <div class="container">
-      <div id="contact">
-        Form with netlify attribute
-        <form name="contact" method="POST" data-netlify="true">
-          <p>
-            <label>Your Name: <input type="text" name="name" /></label>
-          </p>
-          <p>
-            <label>Your Email: <input type="email" name="email" /></label>
-          </p>
-          <p>
-            <label>Message:
-              <textarea name="message"></textarea>
-            </label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
+      <div id="contact" >
+        <h2 class="sub-header text-center">Contact</h2>
+        <form name="contact" method="POST" data-netlify="true" class="contact-form">
+          <div class="contact-group">
+            <input type="text" name="name" placeholder="Enter your name" class="contact-input"/>
+            <input type="email" name="email" placeholder="Enter your email" class="contact-input"/>
+          </div>
+          <textarea name="message" placeholder="Enter your message" class="contact-input"></textarea>
+          <button type="submit" class="btn-main contact-button">
+            Send Message
+          </button>
         </form>
       </div>
     </div>
