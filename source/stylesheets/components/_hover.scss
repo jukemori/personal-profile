@@ -1,4 +1,4 @@
-.projects__modal {
+.project-hover {
   position: absolute;
   left: 0;
   bottom: -100%;
@@ -15,35 +15,23 @@
   align-items: center;
   justify-content: center;
   transition: bottom .4s;
+  color: white;
+
+  .project-title {
+    // font-size: var(--h2-font-size);
+    margin-bottom: .75rem;
+  }
+
+  .project-button {
+    &:hover {
+      cursor: pointer;
+      opacity: 0.6;
+    }
+  }
 }
 
-.projects__subtitle,
-.projects__button {
-  // color: var(--title-color);
-  // font-size: var(--small-font-size);
-}
 
-.projects__subtitle {
-  display: block;
-  margin-bottom: .25rem;
-}
 
-.projects__title {
-  // font-size: var(--h2-font-size);
-  margin-bottom: .75rem;
-}
-
-.projects__button {
-  display: flex;
-  align-items: center;
-  column-gap: .5rem;
-  font-weight: var(--font-medium);
-}
-
-.projects__button i {
-  font-size: 1.25rem;
-}
-
-.card-project:hover .projects__modal {
+.card-project:hover .project-hover {
   bottom: 0;
 }

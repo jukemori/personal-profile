@@ -3,14 +3,6 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
 .card-project {
-  // background-size: cover;
-  // background-position: center;
-  // height: 240px;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-  // border-radius: 5px;
-  // box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 1rem;
   position: relative;
   overflow: hidden;
@@ -22,46 +14,10 @@
 
 }
 
-.card-product {
-  justify-content: center;
-  padding: 1rem;
 
-  background: white;
-  // box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  display: grid;
-  grid-template-columns: 60% 40%;
-  align-items: center;
-  text-align: center;
-}
 
-.card-product img {
-  padding: 2rem;
-  object-fit: cover;
-  box-sizing:border-box
-}
 
-.card-product h2 {
-  font-size: 2rem;
-  font-weight: bold;
-
-}
-
-.card-product p {
-  font-size: 1rem;
-  line-height: 1.4;
-  opacity: .7;
-  margin-bottom: 0;
-  margin-top: 8px;
-  text-align: left;
-}
-
-.card-product .card-product-infos .btn-flat {
-  p {
-    margin: 0;
-  }
-}
-
-.card-product-infos {
+.card-infos {
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -72,8 +28,6 @@
 
 .project-tags  {
   display: flex;
-  padding: 1rem;
-  margin: 1rem;
   i {
     color: gray;
     margin: 0.5rem;
@@ -95,46 +49,16 @@
   transition: opacity 1s;
   &:hover {
     cursor: pointer;
-    color: $gray
+
   }
 }
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 400px) {
-  .card-product {
-    grid-template-columns: 1fr;
-    padding: 0;
-    justify-content: center;
-    img {
-      padding: 0.5rem;
-    }
-    .card-product-infos {
-      padding: 0.5rem;
-      justify-content: center;
-      width: 260px !important;
-      p {
-        box-sizing: border-box;
-        font-size: 0.7rem;
-      }
-      h2 {
-        font-size: 1.5rem;
-      }
-    }
-  }
-  .external-link {
-    opacity: 1;
-  }
+
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 400px) and (max-width: 768px){
-  .card-product {
-    grid-template-columns: 1fr;
-    img {
-      width: 100%;
-    }
-  }
-  .external-link {
-    opacity: 1;
-  }
+
 }
