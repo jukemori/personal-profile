@@ -11,9 +11,7 @@
 
 
 
-.about-info {
-  padding: 1rem;
-}
+
 .about-img {
   display: flex;
   align-items: center;
@@ -32,15 +30,16 @@
       display: grid;
       grid-template-columns: 1fr;
     }
+    .about-pic {
+      height: 250px;
+    }
   }
-  .about-me {
-    font-size: 2rem;
-  }
+
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 768px){
-  #about {
-    padding: 20px 5%;
+  .about-pic {
+    margin-right: 1rem;
   }
 }

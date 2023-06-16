@@ -26,26 +26,36 @@
 
   .profile-pic {
     width: 80vw;
-    // border-radius: 50%;
   }
-
-  .title-main {
-    font-size: 3rem;
-    font-weight: bold;
+  .right{
+    margin-left: 0;
   }
-
+  .left {
+    margin-top: 1rem;
+    margin-right: 0;
+    .title-main {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 
   .profile-pic {
-    width: 80vw;
-    // border-radius: 50%;
+    width: 441px;
   }
-  .title-main {
-    font-size: 3rem;
-    font-weight: bold;
+  .right{
+    margin-left: 0;
+  }
+  .left {
+    margin-top: 1rem;
+    margin-right: 0;
+    .title-main {
+      font-size: 3.5rem;
+      font-weight: bold;
+    }
   }
 
 }
@@ -54,11 +64,10 @@
 @media (min-width: 768px) {
 
   .profile-pic {
-    width: 30vw;
-    // border-radius: 50%;
+    width: 350px;
   }
   .title-main {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bold;
   }
 
@@ -69,7 +78,6 @@
 
   .profile-pic {
     width: 441px;
-    // border-radius: 50%;
   }
   .title-main {
     font-size: 5rem;
@@ -83,7 +91,6 @@
 
   .profile-pic {
     width: 441px;
-    // border-radius: 50%;
   }
   .title-main {
     font-size: 5rem;

@@ -1,3 +1,7 @@
+#projects {
+  margin-bottom: 3rem;
+}
+
 .project-header{
   font-size: 3rem;
   text-align: center;
@@ -12,9 +16,7 @@
   .project-header{
     font-size: 2rem;
   }
-  #projects{
-    padding: 1rem;
-  }
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -23,7 +25,5 @@
     font-size: 2rem;
     margin-bottom: 1.3rem;
   }
-  #projects{
-    padding: 1rem;
-  }
+
 }
