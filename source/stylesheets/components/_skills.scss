@@ -39,6 +39,8 @@
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 768px){
-
+@media (min-width: 768px) {
+  .skill-description{
+    margin-left: 3rem;
+  }
 }

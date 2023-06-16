@@ -1,0 +1,49 @@
+.contact-form, .contact-group {
+  display: grid;
+  row-gap: 1rem;
+}
+
+
+
+.contact-form {
+  justify-self: center;
+  input:focus, textarea:focus {
+    outline: none;
+    border: 2px solid $orange;
+  }
+  .contact-input {
+    padding: 1rem 1.25rem;
+    border-radius: .5rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+
+  }
+  textarea {
+    height: 11rem;
+    resize: none;
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 768px) {
+  #contact {
+    padding: 0 10%;
+  }
+  .contact-form {
+    row-gap: 1.5rem;
+
+    .contact-group {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 1.5rem;
+    }
+
+    textarea {
+      height: 20rem;
+    }
+  }
+}
