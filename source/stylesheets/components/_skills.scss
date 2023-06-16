@@ -10,8 +10,6 @@
 
 
 .skill-card {
-  margin: 1rem;
-  // text-align: center;
   p {
     font-size: 1rem;
   }
@@ -20,16 +18,9 @@
 .skill-description {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0.5rem;
-  padding: 0 5%;
+  padding: 1rem;
 
-  p {
-    font-size: 1rem;
-    i {
-      font-size: 1rem;
 
-    }
-  }
 
 }
 
@@ -38,31 +29,16 @@
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
-  #skills {
-    background-color: white;
-    padding: 1rem
-  }
+
   .skill-cards {
     grid-template-columns: 1fr ;
-    margin: 0;
-    p {
-      font-size: 1rem;
-      i {
-        font-size: 1rem;
-      }
+    .skill-description{
+      margin-top: 1rem;
     }
   }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 768px){
-  .skill-cards {
-    grid-template-columns: 1fr ;
-    p {
-      font-size: 1rem;
-      i {
-        font-size: 1rem;
-      }
-    }
-  }
+
 }
