@@ -37,7 +37,6 @@
     - projects/friendzone/23.15.18.png
     - projects/friendzone/23.15.43.png
     - projects/friendzone/23.18.24.png
-  url: https://happyfriendzone.herokuapp.com/
   source: https://github.com/jukemori/FriendZone
   tags:
     - devicon-html5-plain
@@ -77,7 +76,6 @@
     - projects/word_game/16.02.12.png
     - projects/word_game/16.02.30.png
     - projects/word_game/16.03.09.png
-  url: https://awesome-word-game-93b9a8670f9e.herokuapp.com/
   source: https://github.com/jukemori/rails-longest-word-game
   tags:
     - devicon-ruby-plain
