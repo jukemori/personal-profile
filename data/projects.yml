@@ -48,6 +48,19 @@
     - devicon-postgresql-plain
 
 - id: 3
+  name: Retail App
+  description: Mockup dynamic retail app made by react and typescript
+  main: projects/retailing/14.22.34.png
+  images:
+    - source/images/projects/retailing/14.22.34.png
+    - source/images/projects/retailing/14.21.21.png
+    - source/images/projects/retailing/14.09.45.png
+  source: https://github.com/jukemori/react-retailing-app
+  tags:
+    - devicon-typescript-plain
+    - devicon-react-original
+
+- id: 4
   name: Movie Watchlist
   description: An entertainment app which allows user to get infomation about the movies and create their own watchlist.
   main: projects/watchlist/19.13.36.png
@@ -68,7 +81,7 @@
     - devicon-rails-plain
     - devicon-postgresql-plain
 
-- id: 4
+- id: 5
   name: Longest Word Game
   description: Longest Word Game is a challenging and educational word game where players are tasked with finding valid English words from a set of given letters. The game tests players' vocabulary skills and ability to form words using the provided letters.
   main: projects/word_game/16.02.12.png
