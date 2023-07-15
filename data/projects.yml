@@ -52,9 +52,7 @@
   description: Mockup dynamic retail app made by react and typescript
   main: projects/retailing/14.22.34.png
   images:
-    - source/images/projects/retailing/14.22.34.png
-    - source/images/projects/retailing/14.21.21.png
-    - source/images/projects/retailing/14.09.45.png
+   - projects/retailing/14.22.34.png
   source: https://github.com/jukemori/react-retailing-app
   tags:
     - devicon-typescript-plain
@@ -82,6 +80,17 @@
     - devicon-postgresql-plain
 
 - id: 5
+  name: Product Cards
+  description: A dynamic product page that lists various products and allows users to vote for their favorite products.
+  main: projects/product-cards/11.46.10.png
+  images:
+   - projects/product-cards/11.46.10.png
+  source: https://github.com/jukemori/react-product-cards
+  tags:
+    - devicon-javascript-plain
+    - devicon-react-original
+
+- id: 6
   name: Longest Word Game
   description: Longest Word Game is a challenging and educational word game where players are tasked with finding valid English words from a set of given letters. The game tests players' vocabulary skills and ability to form words using the provided letters.
   main: projects/word_game/16.02.12.png
